@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-10T01:23:48 ART" name="Default suite" finished-at="2023-01-10T01:24:19 ART" duration-ms="31204">
+    <groups>
+    </groups>
+    <test started-at="2023-01-10T01:23:48 ART" name="Default test" finished-at="2023-01-10T01:24:19 ART" duration-ms="31204">
+      <class name="Edit.SauceDemo.Asignacion6">
+        <test-method is-config="true" signature="abrirPagina()[pri:0, instance:Edit.SauceDemo.Asignacion6@72d1ad2e]" started-at="2023-01-10T01:23:44 ART" name="abrirPagina" finished-at="2023-01-10T01:23:48 ART" duration-ms="4411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abrirPagina -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Edit.SauceDemo.Asignacion6@72d1ad2e]" started-at="2023-01-10T01:23:48 ART" name="login" data-provider="Datos Orden" finished-at="2023-01-10T01:23:56 ART" duration-ms="7814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hernán]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Yrigoyen]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1423]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Edit.SauceDemo.Asignacion6@72d1ad2e]" started-at="2023-01-10T01:23:56 ART" name="login" data-provider="Datos Orden" finished-at="2023-01-10T01:24:14 ART" duration-ms="17428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Guadalupe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Alsina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1638]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Edit.SauceDemo.Asignacion6@72d1ad2e]" started-at="2023-01-10T01:24:14 ART" name="login" data-provider="Datos Orden" finished-at="2023-01-10T01:24:15 ART" duration-ms="1423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[failed_login_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tomás]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tamborini]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1431]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Edit.SauceDemo.Asignacion6@72d1ad2e]" started-at="2023-01-10T01:24:15 ART" name="login" data-provider="Datos Orden" finished-at="2023-01-10T01:24:17 ART" duration-ms="1422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce_wrong]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ramiro]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pedraza]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1485]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Edit.SauceDemo.Asignacion6@72d1ad2e]" started-at="2023-01-10T01:24:17 ART" name="login" data-provider="Datos Orden" finished-at="2023-01-10T01:24:18 ART" duration-ms="1408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce_wrong]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sofia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Viola]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1868]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Edit.SauceDemo.Asignacion6@72d1ad2e]" started-at="2023-01-10T01:24:18 ART" name="login" data-provider="Datos Orden" finished-at="2023-01-10T01:24:19 ART" duration-ms="1429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce_wrong]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mariano]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Barrera]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1574]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="cerrarNavegador()[pri:0, instance:Edit.SauceDemo.Asignacion6@72d1ad2e]" started-at="2023-01-10T01:24:19 ART" name="cerrarNavegador" finished-at="2023-01-10T01:24:36 ART" duration-ms="16234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrarNavegador -->
+      </class> <!-- Edit.SauceDemo.Asignacion6 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
